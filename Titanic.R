@@ -56,7 +56,7 @@ extractFamily <- function(sibsp, parch)
 
 #Lecture des données d'apprentissage
 
-train <- read.csv("H:\\Downloads\\train.csv",sep=",", stringsAsFactor=FALSE)
+train <- read.csv("train.csv",sep=",", stringsAsFactor=FALSE)
 
 # Transformer les 4 variables suivantes en variables nominalestrain$Survived
 
